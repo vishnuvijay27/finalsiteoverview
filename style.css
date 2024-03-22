@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.img1{
+    background-size: cover;
+    width: 100%;
+    margin: auto;
+}
+.container1{
+    display: flex;
+    gap:10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.text{
+    max-width: 1000px;
+    margin: auto 10px;
+}
+.img2{
+    width: 200px;
+    height:200px;
+    margin: auto 10px;;
+}
+.container2{
+    margin: 10px;
+}
+h5{
+    color: brown;
+    font-size: 1.5rem;
+}
+p{
+    font-size: 15px;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    color: aliceblue;
+    padding: 2rem;
+    
+}
+.foo1, .foot2, .foot3, .foot4{
+    padding: 1rem;
+}
